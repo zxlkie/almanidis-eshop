@@ -1,23 +1,21 @@
 # Almanidis E-Shop
 
-A simple e-shop built with XAMPP, Node.js, and MySQL.
+A simple e-shop built with Node.js, Express, and MySQL. This project allows users to browse products, add them to a cart, and proceed to checkout.
 
 ## Features
-- Product listing.
+- Product listing fetched from a MySQL database.
 - Add to cart functionality.
-- Checkout button.
-- Responsive design.
+- Shopping cart with total price and clear cart button.
+- Simple checkout process.
 
-## Technologies
-- Frontend: HTML, CSS, JavaScript.
-- Backend: Node.js, Express.
-- Database: MySQL.
+## Technologies Used
+- **Frontend**: HTML, CSS, JavaScript.
+- **Backend**: Node.js, Express.
+- **Database**: MySQL.
 
-## Setup
-1. Install XAMPP and start Apache and MySQL.
-2. Import the `eshop.sql` file into your MySQL database.
-3. Run `node server.js` to start the Node.js server.
-4. Open `http://localhost:3000` in your browser.
+## Setup Instructions
 
-## Live Demo
-[View Live Demo](https://your-vercel-or-netlify-url.com)
+### 1. Clone the Repository
+```bash
+git clone https://github.com/zxlkie/almanidis-eshop.git
+cd almanidis-eshop
